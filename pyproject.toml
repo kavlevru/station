@@ -1,0 +1,7 @@
+[tool.poetry]
+    name = "station"
+    version = "1.00"
+    description = "scripts for scanning sensors and save values in db"
+    authors = ["Kavlev"]
+[tool.poetry.dependencies]
+    requests = {version = "^2.28.1", python = "^3.7"}
